@@ -1,0 +1,6 @@
+🔷 Lambda'nın Arka Planında Ne Var?
+- Derleme zamanında, bir lambda ifadesi invokedynamic bytecode komutu ile bir functional interface'e dönüştürülür.
+
+- Lambda'lar anonim iç sınıfların yerini alır, ama daha hafif ve performanslıdır.
+
+- this ifadesi, lambda'nın tanımlandığı dış sınıfı işaret eder (anonim iç sınıftaki gibi lambda’nın kendisini değil!).
