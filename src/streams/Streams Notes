@@ -1,0 +1,23 @@
+🔷 Stream Kaynağı:
+List.stream(), Set.stream(), Arrays.stream(array)
+Stream.of(...), IntStream.range(...)
+
+🔷 Intermediate Operations (Ara İşlemler - Lazy)
+filter()
+map()
+flatMap()
+distinct()
+sorted()
+peek() (Debug için)
+
+🔷 Terminal Operations (Sonlandırıcı İşlemler - Stream kapanır)
+forEach()
+collect()
+reduce()
+count()
+anyMatch(), allMatch(), noneMatch()
+findFirst(), findAny()
+
+✅ OCP Sınavı İçin İpuçları
+Stream bir defa tüketilir! Tekrar kullanılamaz.
+Lambda'lar içinde değişken effectively final olmalı.
