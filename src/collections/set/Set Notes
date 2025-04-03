@@ -1,0 +1,6 @@
+Comparison Summary (HashMap vs LinkedHashMap vs TreeMap)
+Feature	            HashMap	        LinkedHashMap	    TreeMap
+Ordering	        No	            Insertion order	    Natural or Comparator order
+Performance	        Fastest	        Fast	            Slower (tree structure)
+Null key	        Yes (only one)	Yes (only one)	    No (except in some cases)
+Navigable features	No	            No	                Yes (firstKey, tailMap, etc.)
