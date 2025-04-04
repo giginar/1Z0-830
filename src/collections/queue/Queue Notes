@@ -1,0 +1,6 @@
+📘 Comparison Table – Queue Implementations
+Structure	        FIFO / LIFO	        Ordering	            Key Methods	Notes
+Queue	            FIFO	            None	                offer, poll, peek	Implemented with LinkedList
+Deque	            FIFO + LIFO	        None	                offerFirst, offerLast, pop	Works like both Stack and Queue
+ArrayDeque	        FIFO + LIFO	        None	                addFirst, addLast, removeFirst	Faster than LinkedList
+PriorityQueue	    Priority-based	    Natural/Comparator	    add, poll, peek	No order guarantee, internally min-heap
