@@ -1,0 +1,7 @@
+📘 Quick Reference – Comparable vs Comparator
+Feature	            Comparable	                    Comparator
+Location	        Inside the class (implements)	External (passed as argument)
+Method	            compareTo()	                    compare()
+Purpose	            Natural ordering	            Custom ordering
+Used by	            sort(), TreeSet, TreeMap	    Same + thenComparing() etc.
+Can sort by field	Only one	                    Multiple (with thenComparing())
