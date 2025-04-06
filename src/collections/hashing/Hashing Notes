@@ -1,0 +1,7 @@
+📘 Hashing Essentials (OCP-Level)
+Rule	                                Explanation
+equals() and hashCode() must align	    If two objects are equal, their hashCodes must also be equal
+Mutable fields are dangerous	        Changing the object after insertion breaks hashing logic
+HashSet and HashMap use hashCode()	    For storing, retrieving, removing elements
+TreeSet/TreeMap uses compareTo()	    Not equals() for comparison
+Default equals() checks reference	    Not contents, unless overridden
