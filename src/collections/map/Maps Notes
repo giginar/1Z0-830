@@ -1,0 +1,6 @@
+📘 Map Implementation Comparison
+Feature	            HashMap	            LinkedHashMap	    TreeMap
+Ordering	        No	                Insertion order	    Natural or custom order
+Performance	        Fastest	            Fast	            Slower (tree-based structure)
+Null keys	        Yes (one allowed)	Yes (one allowed)	Not allowed (except sometimes)
+Navigable features	No	                No	                Yes (firstKey, tailMap, etc.)
