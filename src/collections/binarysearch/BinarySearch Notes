@@ -1,0 +1,6 @@
+Concept	                            Detail
+List must be sorted	                Otherwise, result is undefined
+Not found → -(insertionPoint)-1	    Helps determine where to insert while maintaining order
+Custom Comparator must match	    Use same Comparator for both sort() and binarySearch()
+Can return 0-based index	        If found, returns actual index
+Works with primitives and objects	As long as types are Comparable or you supply a Comparator
