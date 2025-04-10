@@ -1,0 +1,5 @@
+Benefit	            Explanation
+Type safety	        Detect type issues at compile time
+Code reusability	One class or method can handle different data types
+Cleaner             API	No need for explicit casting
+Performance	        No boxing/unboxing when using primitives via wrappers
