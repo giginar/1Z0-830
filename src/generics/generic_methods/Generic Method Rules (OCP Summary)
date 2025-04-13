@@ -1,0 +1,5 @@
+Syntax	                    Purpose
+<T>	Declare a type          parameter
+<T extends Number>	        Restrict type to a class/interface
+static <T> void method()	Generic static method
+@SafeVarargs	            Suppress unchecked varargs warning
