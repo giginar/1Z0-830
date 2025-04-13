@@ -1,0 +1,6 @@
+Pattern	                        Example
+Generic interface	            interface MyInterface<T> {}
+Fixed-type implementation	    class Impl implements MyInterface<String> {}
+Inheriting a generic class	    class Child<T> extends Parent<T>
+Built-in generic interfaces	    Supplier<T>, Consumer<T>, Function<T, R>
+OCP Note	                    Generic type parameters do not exist at runtime — type erasure applies
