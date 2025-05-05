@@ -1,0 +1,7 @@
+📘 Localization – OCP Exam Notes
+Concept	                            Key Point
+Locale(language, country)	        Use standard 2-letter codes (e.g., "en", "US")
+NumberFormat / DateTimeFormatter	Locale-sensitive formatters
+ResourceBundle.getBundle()	        Used for internationalized text lookup
+.properties file	                Key-value UTF-8 text files
+Locale.Category	                    Separates DISPLAY and FORMAT defaults

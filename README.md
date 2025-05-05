@@ -4,6 +4,6 @@ Bu repo, Java 21 OCP (Oracle Certified Professional) sınavına hazırlık amac�
 
 ## 📌 Hedefler
 - Java'nın fonksiyonel programlama yeteneklerini anlamak
-- Sınavda çıkabilecek tüm lambda ve stream senaryolarını öğrenmek
+- Sınavda çıkabilecek tüm section1_lambda ve stream senaryolarını öğrenmek
 - Pratik yaparak akıcı bir şekilde kullanabilmek
 - Temiz ve anlaşılır örnekler ile ezber değil **anlayarak** öğrenmek
