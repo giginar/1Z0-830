@@ -1,0 +1,8 @@
+📘 OCP JDBC Notes
+Topic	                Notes
+DriverManager	        Use to get Connection
+try-with-resources	    Mandatory for avoiding ResourceLeakException
+PreparedStatement	    Safer than string concat, avoids SQL injection
+CallableStatement	    Used for stored procedures
+ResultSet	            Used to read query results. Use .next() and column access methods
+Auto-commit	            Enabled by default — use conn.setAutoCommit(false) for transactions
