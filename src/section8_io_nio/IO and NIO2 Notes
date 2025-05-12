@@ -1,0 +1,7 @@
+📘 I/O and NIO.2 – OCP Summary
+Concept	                Classic IO (java.io)	            NIO.2 (java.nio.file)
+File handling	        FileReader, BufferedWriter, etc.	Path, Files, DirectoryStream
+Performance	Blocking	Better                              scalability + non-blocking I/O
+New file APIs	        ✖️	                                ✔️ Files.copy, Files.move, Files.walk
+Watching FS changes	    ✖️	                                ✔️ WatchService
+Walking file trees	    Manual recursion	                ✔️ FileVisitor & Files.walkFileTree()
