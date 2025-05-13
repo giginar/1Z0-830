@@ -1,0 +1,9 @@
+📘 LVTI (var) – OCP Summary
+Rule / Usage	                        Allowed?	        Notes
+var x = 5;	                            ✅	                Type is int
+var list = new ArrayList<String>();	    ✅	                Type is ArrayList<String>
+var x;	                                ❌	                You must provide an initializer
+var x = null;	                        ❌	                Cannot infer type from null
+var[] arr = {1,2,3};	                ❌	                Array type must be declared explicitly
+var in lambda parameters	            ✅ (Java 11)	    Must be used consistently for all parameters
+Method parameters / return types	    ❌	                var is only for local variables
