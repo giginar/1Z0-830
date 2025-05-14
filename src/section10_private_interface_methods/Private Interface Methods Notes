@@ -1,0 +1,7 @@
+Modifier	            Allowed in Interfaces?	    Since	    Notes
+public	                ✅	                        Always	    All interface methods are implicitly public
+default	                ✅	                        Java 8	    Must have body, used for backward compatibility
+static	                ✅	                        Java 8	    Used for utility methods
+private	                ✅	                        Java 9	    Helper method for use within interface only
+private static	        ✅	                        Java 9	    For reusable logic in static methods
+abstract private	    ❌	                           —	    Invalid combination
