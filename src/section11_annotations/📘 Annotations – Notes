@@ -1,0 +1,8 @@
+📘 Annotations – OCP Summary
+Concept	                            Key Info
+@interface	                        Used to define a custom annotation
+@Retention(RUNTIME)	                Required to access annotations via reflection
+@Target({ElementType.METHOD})	    Limits where the annotation can be applied
+@Repeatable	                        Allows multiple instances of the same annotation on one element
+@Inherited	                        Applies to classes only, propagates to subclasses
+Reflection	                        Used to access annotation metadata at runtime
