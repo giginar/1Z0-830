@@ -1,0 +1,7 @@
+📘 Java Security – OCP Summary
+Topic	            Exam Relevance
+SecurityManager	    Know how to enable, restrict, and grant
+.policy files	    Permissions like FilePermission, PropertyPermission
+MessageDigest	    Used to create secure one-way hashes
+SecureRandom	    Cryptographically secure RNG
+JAR signing	        Understand purpose, not syntax details
