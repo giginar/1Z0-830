@@ -1,0 +1,10 @@
+📘 Java 11 Modules
+Concept	                Notes
+module-info.java	    Central declaration file
+requires	            Add dependency
+exports	                Expose package for public use
+opens	                Expose package for reflection
+provides / uses	        Service loader setup
+CLI flags	            --module-path, --add-exports, --patch-module, etc.
+Types of modules	    Named, automatic, unnamed
+Migration strategy	    Gradual modularization with CLI support
