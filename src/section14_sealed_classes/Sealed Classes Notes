@@ -1,0 +1,8 @@
+📘 Sealed Class – OCP Summary
+Concept	                Description
+sealed	                Limits which classes/interfaces can extend or implement
+permits	                Lists permitted subclasses
+final	                The class cannot be subclassed further
+non-sealed	            Removes restriction; allows normal inheritance
+Usage in switch	        Enables compiler-enforced exhaustiveness
+OCP Tip	                Every subclass must declare if it’s final, sealed, or non-sealed
