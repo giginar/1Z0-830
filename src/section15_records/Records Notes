@@ -1,0 +1,10 @@
+📘 Java Records – OCP Summary
+Concept	            Details
+record	            Defines a final immutable class with auto-generated code
+Accessors	        Named exactly as the fields (no getX())
+Constructor	        Canonical or compact constructors allowed
+Inheritance	        Cannot extend any class (records are final)
+Interfaces	        Can implement interfaces
+Serialization	    Records are Serializable by default if fields are
+Nested record	    Always static
+Equality	        Shallow field-based equals() and hashCode()
