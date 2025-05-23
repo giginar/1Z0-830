@@ -1,0 +1,8 @@
+📘 Java 21 Pattern Matching – OCP Summary
+Feature	                    Java Version	Description
+Switch expressions	        Java 14+	    switch can return values directly
+Type pattern matching	    Java 21     	case String s binds and filters by type
+Guarded patterns (when)	    Java 21	        Adds boolean conditions to patterns
+Null-safe switch	        Java 21	        case null now allowed in switch
+Record patterns	            Java 21	        Destructure record components
+Exhaustiveness check	    Java 17+	    Compiler enforces full handling for sealed types
